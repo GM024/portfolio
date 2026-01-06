@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://geertmueller.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Portfolio"
 theme: "hugo-profile"
 
 outputs:
@@ -30,8 +30,8 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
+    - identifier: blogs
+      name: Blogs
       title: Blog posts
       url: /blogs
       weight: 1
@@ -263,7 +263,7 @@ params:
         date: "2025 - present"
         content: |-
           Noteworthy:
-            - I am momentarily writing a minor thesis on The Subconscious Road to Sustainable Fashion: Implicit Pathogen Concerns Behind Second -Hand
+            - I am momentarily writing a minor thesis on 'The Subconscious Road to Sustainable Fashion: Implicit Pathogen Concerns Behind Second-hand
           Clothing Choices under supervision of [Jasper de Groot](https://www.ru.nl/personen/groot-j-de).
             - Major focus on developing practical research skills, such as understanding of advanced statistics and execution of complicated analyses through R and other software.
   
@@ -276,9 +276,6 @@ params:
           Most prominently, I worked on two research projects:
           - Bachelor thesis on the relationship between parental education and children's language comprehension.
           - Research project on the differences in study workload and stress between students studying in their native language versus students studying in a foreign language.
-
-          Extracurricular Activities
-            - B2 Statistics tutor.
             
         featuredLink:
           enable: false
@@ -363,15 +360,6 @@ params:
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
-
-  footer:
-    enable: false
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
 
   # List pages like blogs and posts
   listPages:
