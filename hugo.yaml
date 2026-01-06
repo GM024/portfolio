@@ -35,6 +35,10 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
+    - identifier: why
+      name: Why not LinkedIn?
+      url: /whynotlinkedin/
+      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -367,7 +371,7 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
       enable: true
       content: "min read"
