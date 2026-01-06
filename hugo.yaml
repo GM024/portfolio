@@ -38,7 +38,7 @@ Menus:
     - identifier: why
       name: Why not LinkedIn?
       url: /whynotlinkedin/
-      weight: 2
+      weight: 3
     - identifier: cv
       name: Curriculum Vitae
       url: /cv/
@@ -164,6 +164,7 @@ params:
   # About
   about:
     enable: true
+    weight: 1
     title: "About Me"
     image: 
     content: |-
@@ -262,6 +263,7 @@ params:
   # Education
   education:
     enable: true
+    weight: 4
     # title: "Custom Name"
     index: false
     items:
@@ -294,6 +296,7 @@ params:
   # Achievements
   achievements:
     enable: true
+    weight: 5
     title: "Extracurricular Activities"
     items:
       - title: Promotional Officer at Maizena
@@ -304,6 +307,7 @@ params:
       - title: Radboud Theoretical Psychology
         content: A biweekly literature reading and discussing club led by Freek Oude Maatman.
         image: /images/RTP.png
+        url: https://www.ru.nl/personen/oude-maatman-f
         data: 2025 - present
    
   # projects
@@ -381,7 +385,7 @@ params:
       enable: true
       content: "min read"
     scrollprogress:
-      enable: true
+      enable: false
     tags:
       openInNewTab: true
 
