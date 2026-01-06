@@ -39,6 +39,11 @@ Menus:
       name: Why not LinkedIn?
       url: /whynotlinkedin/
       weight: 2
+    - identifier: cv
+      name: Curriculum Vitae
+      url: /cv/
+      weight: 2
+    
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -141,7 +146,7 @@ params:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "/CV.html"
       download: false
