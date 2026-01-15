@@ -138,10 +138,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Geert."
+    title: "Geert Müller"
     subtitle: "I study things. Currently, mostly related to behavioural science, with strong emphasis on scientific methodology and rigorous research practices."
-    content: "This website is a passion project to enhance and showcase my skills in [R Markdown](https://rmarkdown.rstudio.com) and [R Blogdown](https://bookdown.org/yihui/blogdown/). Also, I am terrible at taking pictures."
-    image: "/images/gm.png" #This is the profile picture!
+    content: "This website is a passion project to enhance and showcase my skills in [R Markdown](https://rmarkdown.rstudio.com) and [R Blogdown](https://bookdown.org/yihui/blogdown/)."
+    image: "/images/pfgm.png" #This is the profile picture!
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
